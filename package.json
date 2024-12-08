@@ -1,0 +1,25 @@
+{
+  "name": "expiring-url-generator",
+  "version": "1.0.2",
+  "description": "This package will generate and validate expiring url",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "typescript",
+    "expiring-url"
+  ],
+  "author": "Alan Nixon",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7"
+  }
+}
